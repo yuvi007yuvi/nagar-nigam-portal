@@ -35,7 +35,7 @@ export default function NewsSection() {
               {displayNews.map((item) => (
                 <Link key={item.id} href={`/news/${item.slug}`} className={styles.card}>
                   <div className={styles.cardImage}>
-                    <Image src={item.image} alt="" fill style={{ objectFit: 'cover' }} />
+                    <Image src={item.image} alt="" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" style={{ objectFit: 'cover' }} />
                     <span
                       className={styles.cardCategory}
                       style={{ background: categoryColors[item.category] || categoryColors.general }}
@@ -69,7 +69,7 @@ export default function NewsSection() {
               {displayNews.map((item) => (
                 <Link key={`dup-${item.id}`} href={`/news/${item.slug}`} className={styles.card}>
                   <div className={styles.cardImage}>
-                    <Image src={item.image} alt="" fill style={{ objectFit: 'cover' }} />
+                    <Image src={item.image} alt="" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" style={{ objectFit: 'cover' }} />
                     <span
                       className={styles.cardCategory}
                       style={{ background: categoryColors[item.category] || categoryColors.general }}

@@ -62,7 +62,7 @@ export default function SocialMediaFeed() {
               
               {tweet.hasImage && tweet.imageSrc && (
                 <div className={styles.postImage}>
-                  <Image src={tweet.imageSrc} alt="Tweet image" fill style={{ objectFit: 'cover' }} />
+                  <Image src={tweet.imageSrc} alt="Tweet image" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" style={{ objectFit: 'cover' }} />
                 </div>
               )}
               
