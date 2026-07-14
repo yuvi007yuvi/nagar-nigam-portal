@@ -1,0 +1,68 @@
+import { FAQ } from '@/types';
+
+export const faqs: FAQ[] = [
+  {
+    id: '1',
+    questionEn: 'How do I pay property tax online?',
+    questionHi: 'मैं ऑनलाइन संपत्ति कर का भुगतान कैसे करूं?',
+    answerEn: 'You can pay property tax online through our portal. Go to Services > Property Tax, enter your property ID or owner name to search, view your bill and make payment using UPI, Debit Card, Credit Card or Net Banking.',
+    answerHi: 'आप हमारे पोर्टल के माध्यम से ऑनलाइन संपत्ति कर का भुगतान कर सकते हैं। सेवाएं > संपत्ति कर पर जाएं, अपनी संपत्ति आईडी या मालिक का नाम दर्ज करके खोजें, अपना बिल देखें और UPI, डेबिट कार्ड, क्रेडिट कार्ड या नेट बैंकिंग से भुगतान करें।',
+    category: 'tax',
+  },
+  {
+    id: '2',
+    questionEn: 'How do I apply for a birth certificate?',
+    questionHi: 'मैं जन्म प्रमाण पत्र के लिए कैसे आवेदन करूं?',
+    answerEn: 'Go to Services > Birth Certificate, fill the online application form with required details including hospital name, date of birth, and parents information. Upload supporting documents and submit. You can track the status using your application number.',
+    answerHi: 'सेवाएं > जन्म प्रमाण पत्र पर जाएं, अस्पताल का नाम, जन्म तिथि और माता-पिता की जानकारी सहित आवश्यक विवरण भरें। सहायक दस्तावेज अपलोड करें और सबमिट करें। आप अपने आवेदन नंबर से स्थिति ट्रैक कर सकते हैं।',
+    category: 'certificate',
+  },
+  {
+    id: '3',
+    questionEn: 'How do I register a complaint?',
+    questionHi: 'मैं शिकायत कैसे दर्ज करूं?',
+    answerEn: 'Click on "Register Complaint" from the homepage or go to Services > Register Complaint. Select the department, describe your issue, upload photos if available, and provide your location. You will receive a complaint number to track the status.',
+    answerHi: 'होमपेज से "शिकायत दर्ज करें" पर क्लिक करें या सेवाएं > शिकायत दर्ज करें पर जाएं। विभाग चुनें, अपनी समस्या का वर्णन करें, यदि उपलब्ध हो तो फोटो अपलोड करें, और अपना स्थान प्रदान करें।',
+    category: 'complaint',
+  },
+  {
+    id: '4',
+    questionEn: 'What are the property tax payment deadlines?',
+    questionHi: 'संपत्ति कर भुगतान की अंतिम तिथि क्या है?',
+    answerEn: 'Property tax can be paid annually or in two installments. The first installment is due by September 30th and the second by March 31st. Early payment before June 30th gets a 10% rebate.',
+    answerHi: 'संपत्ति कर वार्षिक रूप से या दो किस्तों में भुगतान किया जा सकता है। पहली किस्त 30 सितंबर तक और दूसरी 31 मार्च तक देय है। 30 जून से पहले भुगतान पर 10% की छूट मिलती है।',
+    category: 'tax',
+  },
+  {
+    id: '5',
+    questionEn: 'How do I apply for a trade license?',
+    questionHi: 'मैं व्यापार लाइसेंस के लिए कैसे आवेदन करूं?',
+    answerEn: 'Go to Services > Trade License, fill the application form with business details, upload required documents (Aadhaar, address proof, photos), and pay the applicable fee. Processing takes 15-20 working days.',
+    answerHi: 'सेवाएं > व्यापार लाइसेंस पर जाएं, व्यापार विवरण भरें, आवश्यक दस्तावेज (आधार, पते का प्रमाण, फोटो) अपलोड करें, और लागू शुल्क का भुगतान करें। प्रसंस्करण में 15-20 कार्य दिवस लगते हैं।',
+    category: 'license',
+  },
+  {
+    id: '6',
+    questionEn: 'How can I check my water bill online?',
+    questionHi: 'मैं अपना पानी का बिल ऑनलाइन कैसे देख सकता हूं?',
+    answerEn: 'Go to Services > Water Tax, enter your consumer number or registered mobile number to view your current bill, payment history and outstanding balance. You can also pay directly from the same page.',
+    answerHi: 'सेवाएं > जल कर पर जाएं, अपना उपभोक्ता नंबर या पंजीकृत मोबाइल नंबर दर्ज करें। आप वर्तमान बिल, भुगतान इतिहास और बकाया राशि देख सकते हैं।',
+    category: 'water',
+  },
+  {
+    id: '7',
+    questionEn: 'What documents are required for building permission?',
+    questionHi: 'भवन निर्माण अनुमति के लिए कौन से दस्तावेज आवश्यक हैं?',
+    answerEn: 'Required documents include: Property ownership documents, approved site plan, structural design by licensed architect, NOC from fire department, Aadhaar card, and application fee receipt.',
+    answerHi: 'आवश्यक दस्तावेज: संपत्ति स्वामित्व दस्तावेज, अनुमोदित साइट प्लान, लाइसेंस प्राप्त वास्तुकार द्वारा संरचनात्मक डिजाइन, अग्निशमन विभाग से एनओसी, आधार कार्ड, और आवेदन शुल्क रसीद।',
+    category: 'license',
+  },
+  {
+    id: '8',
+    questionEn: 'How do I track my complaint status?',
+    questionHi: 'मैं अपनी शिकायत की स्थिति कैसे ट्रैक करूं?',
+    answerEn: 'Click on "Track Complaint" from the homepage or go to Services > Track Complaint. Enter your complaint number to see the current status, assigned officer details and resolution timeline.',
+    answerHi: 'होमपेज से "शिकायत ट्रैक करें" पर क्लिक करें या सेवाएं > शिकायत ट्रैक करें पर जाएं। वर्तमान स्थिति, सौंपे गए अधिकारी का विवरण और समाधान समयसीमा देखने के लिए अपना शिकायत नंबर दर्ज करें।',
+    category: 'complaint',
+  },
+];

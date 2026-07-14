@@ -1,0 +1,97 @@
+.tickerContainer {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #FFF5E6, #ffffff, #FFF5E6);
+  border-bottom: 2px solid var(--color-orange);
+  height: 44px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  z-index: 10;
+}
+
+.tickerLabel {
+  background: linear-gradient(135deg, #FF671F, #E65C00);
+  color: var(--color-white);
+  padding: 0 var(--space-5) 0 var(--space-4);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  font-size: var(--font-size-sm);
+  white-space: nowrap;
+  position: relative;
+  z-index: 2;
+  box-shadow: 4px 0 8px rgba(0,0,0,0.15);
+  clip-path: polygon(0 0, 100% 0, 92% 100%, 0% 100%);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.pulsingDot {
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: var(--space-2);
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0.4);
+  animation: pulse 1.5s infinite;
+}
+
+.bellIcon {
+  margin-right: var(--space-2);
+  font-size: 14px;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7); }
+  70% { box-shadow: 0 0 0 6px rgba(255, 255, 255, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+}
+
+.marqueeWrapper {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  align-items: center;
+}
+
+.marqueeContent {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: marquee 35s linear infinite;
+  padding-left: var(--space-8);
+}
+
+.marqueeContent span {
+  font-size: var(--font-size-sm);
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.separator {
+  margin: 0 var(--space-4);
+  color: var(--color-orange) !important;
+  font-size: 10px !important;
+}
+
+.marqueeWrapper:hover .marqueeContent {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+@media (max-width: 768px) {
+  .tickerLabel {
+    padding: 0 var(--space-2);
+    font-size: 12px;
+  }
+  .marqueeContent span {
+    font-size: 12px;
+  }
+}
