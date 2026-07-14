@@ -92,8 +92,8 @@
 /* Header Grid (Image + Basic Info) */
 .cardHeaderGrid {
   display: grid;
-  grid-template-columns: 160px 1fr;
-  gap: var(--space-6);
+  grid-template-columns: 120px 1fr;
+  gap: var(--space-4);
   align-items: flex-start;
 }
 
@@ -165,8 +165,12 @@
 .bioText {
   font-size: var(--text-sm);
   color: var(--color-gray-700);
-  line-height: 1.6;
+  line-height: 1.5;
   margin-top: var(--space-2);
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* Vision Block */

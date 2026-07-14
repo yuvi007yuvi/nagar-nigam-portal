@@ -5,13 +5,12 @@ import Image from 'next/image';
 import styles from './GovernmentInitiatives.module.css';
 
 const initiatives = [
-  { name: 'Government of India', url: 'https://www.india.gov.in', logo: '/images/logos/gov-india.svg' },
+  { name: 'Government of India', url: 'https://www.india.gov.in', logo: '/images/logos/ashoka.svg' },
   { name: 'Government of Uttar Pradesh', url: 'https://up.gov.in', logo: '/images/logos/up-gov.svg' },
-  { name: 'Digital India', url: 'https://www.digitalindia.gov.in', logo: '/images/logos/digital-india.svg' },
-  { name: 'Swachh Bharat Mission', url: 'https://swachhbharatmission.ddws.gov.in', logo: '/images/logos/swachh-bharat.svg' },
-  { name: 'MyGov', url: 'https://www.mygov.in', logo: '/images/logos/mygov.svg' },
-  { name: 'Smart Cities Mission', url: 'https://smartcities.gov.in', logo: '/images/logos/smart-city.svg' },
-  { name: 'AMRUT', url: 'https://amrut.gov.in', logo: '/images/logos/amrut.svg' },
+  { name: 'Digital India', url: 'https://www.digitalindia.gov.in', logo: '/images/hero-logos/Digital_India_logo.svg.webp' },
+  { name: 'Swachh Bharat Mission', url: 'https://swachhbharatmission.ddws.gov.in', logo: '/images/hero-logos/SWACH BHARAT.png' },
+  { name: 'MyGov', url: 'https://www.mygov.in', logo: '/images/hero-logos/mygov.png' },
+  { name: 'AMRUT', url: 'https://amrut.gov.in', logo: '/images/hero-logos/1AMRUT.gif' },
 ];
 
 export default function GovernmentInitiatives() {

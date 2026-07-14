@@ -32,7 +32,9 @@ export default function HomePage() {
         <SocialMediaFeed />
       </div>
 
-      <GallerySlider />
+      <div className={styles.fullWidthContainer}>
+        <GallerySlider />
+      </div>
     </>
   );
 }

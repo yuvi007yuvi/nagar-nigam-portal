@@ -27,8 +27,8 @@ export default function MayorCommissioner() {
                 <Image
                   src="/images/commissioner.jpeg"
                   alt={t('SHRI OJASWI RAJ, IAS', 'श्री ओजस्वी राज, आईएएस')}
-                  width={160}
-                  height={160}
+                  width={120}
+                  height={120}
                   className={styles.profileImage}
                 />
               </div>
@@ -54,10 +54,10 @@ export default function MayorCommissioner() {
             </div>
 
             <div className={styles.visionBlock}>
-              "{t(
+              &quot;{t(
                 'Building a clean, safe, smart, and citizen-friendly Mathura-Vrindavan.',
                 'स्वच्छ, सुरक्षित, स्मार्ट एवं नागरिक-अनुकूल मथुरा-वृन्दावन का निर्माण।'
-              )}"
+              )}&quot;
             </div>
 
           </div>
@@ -71,8 +71,8 @@ export default function MayorCommissioner() {
                 <Image
                   src="/images/mayor.jpeg"
                   alt={t('SHRI VINOD AGARWAL', 'श्री विनोद अग्रवाल')}
-                  width={160}
-                  height={160}
+                  width={120}
+                  height={120}
                   className={styles.profileImage}
                 />
               </div>
@@ -97,10 +97,10 @@ export default function MayorCommissioner() {
             </div>
 
             <div className={styles.visionBlock}>
-              "{t(
+              &quot;{t(
                 'A clean, beautiful, developed, and modern Mathura-Vrindavan.',
                 'स्वच्छ, सुंदर, विकसित एवं आधुनिक मथुरा-वृन्दावन।'
-              )}"
+              )}&quot;
             </div>
 
           </div>

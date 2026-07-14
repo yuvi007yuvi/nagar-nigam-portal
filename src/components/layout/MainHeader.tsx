@@ -27,6 +27,11 @@ export default function MainHeader({ onMobileMenuToggle }: MainHeaderProps) {
             alt="Government of Uttar Pradesh" 
             className={styles.brandingLogo}
           />
+          <img 
+            src="/images/hero-logos/SWACH BHARAT.png" 
+            alt="Swachh Bharat" 
+            className={styles.brandingLogo}
+          />
         </div>
 
         {/* Center Logo & Org Name */}
@@ -48,28 +53,18 @@ export default function MainHeader({ onMobileMenuToggle }: MainHeaderProps) {
         {/* Right Logos */}
         <div className={styles.rightLogos}>
           <img 
-            src="/images/logos/digital-india.svg" 
+            src="/images/hero-logos/Digital_India_logo.svg.webp" 
             alt="Digital India" 
             className={styles.brandingLogo}
           />
           <img 
-            src="/images/logos/swachh-bharat.svg" 
-            alt="Swachh Bharat Mission" 
+            src="/images/hero-logos/mygov.png" 
+            alt="MyGov" 
             className={styles.brandingLogo}
           />
           <img 
-            src="/images/logos/mygov.svg" 
-            alt="MyGov India" 
-            className={styles.brandingLogo}
-          />
-          <img 
-            src="/images/logos/amrut.svg" 
+            src="/images/hero-logos/1AMRUT.gif" 
             alt="AMRUT Mission" 
-            className={styles.brandingLogo}
-          />
-          <img 
-            src="/images/logos/smart-city.svg" 
-            alt="Smart Cities Mission" 
             className={styles.brandingLogo}
           />
         </div>

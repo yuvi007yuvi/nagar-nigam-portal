@@ -28,6 +28,10 @@ export const metadata: Metadata = {
     alternateLocale: 'hi_IN',
     siteName: 'Nagar Nigam Mathura-Vrindavan',
   },
+  icons: {
+    icon: '/images/MathuraLogo.png',
+    apple: '/images/MathuraLogo.png',
+  },
 };
 
 export default function RootLayout({

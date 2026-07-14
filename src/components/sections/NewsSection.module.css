@@ -7,7 +7,7 @@
 .marqueeContainer {
   flex: 1;
   position: relative;
-  height: 250px;
+  height: 180px;
   overflow: hidden;
 }
 
@@ -47,7 +47,7 @@
 
 .cardImage {
   position: relative;
-  height: 200px;
+  height: 120px;
   overflow: hidden;
 }
 
@@ -105,7 +105,7 @@
 
 .viewAll {
   text-align: center;
-  margin-top: var(--space-10);
+  margin-top: var(--space-4);
 }
 
 .viewAllBtn {
